@@ -182,7 +182,6 @@ section .title p {
     font-size: 18px;
 }
 
-}
 /* section.about */
 section.about {
     background: #fff;
@@ -410,12 +409,13 @@ section.sns ul li a p.img {
 }
 section.sns ul li a p.img img {
     width: 100%;
+    height: 50vh;
 }
 section.sns ul li a p.img:before {
     content: '';
     width: 0%;
     background: rgba(255, 131, 66, 0.9);
-    height: 100%;
+    height: 50vh;
     position: absolute;
     left: 0;
     top: 0;
